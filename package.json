@@ -26,12 +26,16 @@
   },
   "dependencies": {
     "bluebird": "^3.7.2",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
     "chalk": "~3.0.0",
     "eventemitter3": "^4.0.0",
     "execa": "^4.0.0",
     "form-data": "^3.0.0",
     "jpeg-js": "^0.3.6",
     "lodash": "^4.17.15",
+    "mocha": "^7.2.0",
+    "mochawesome": "^4.1.0",
     "my-local-ip": "^1.0.0",
     "node-fetch": "^2.6.0",
     "pngjs": "^3.4.0",
@@ -42,16 +46,14 @@
     "semver": "^7.1.2",
     "split": "^1.0.1",
     "stf-syrup": "^1.0.0",
-    "tmp-promise": "^2.0.2",
     "teen_process": "^1.15.0",
+    "tmp-promise": "^2.0.2",
     "uuid": "^3.4.0",
+    "wd": "^1.12.1",
     "yargs": "^15.1.0",
     "zeromq": "^6.0.0-beta.6"
   },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.1.1"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">= 12.0"
   },

@@ -83,6 +83,7 @@ enum MessageType {
   SettingsOpenWifiMessage    = 101;
   SettingsOpenDeveloperMessage    = 102;
   SettingsOpenAppsMessage    = 103;
+  TestLaunchMessage    = 104;
 }
 
 message ConnectStartedMessage {
@@ -549,6 +550,9 @@ message SettingsOpenDeveloperMessage {
 }
 
 message SettingsOpenAppsMessage {
+}
+
+message TestLaunchMessage {
 }
 
 // Events, these must be kept in sync with STFService/wire.proto
