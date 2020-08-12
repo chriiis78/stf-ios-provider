@@ -553,6 +553,7 @@ message SettingsOpenAppsMessage {
 }
 
 message TestLaunchMessage {
+  required string script = 0;
 }
 
 // Events, these must be kept in sync with STFService/wire.proto
